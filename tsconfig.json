@@ -1,11 +1,11 @@
-// This configures the ts
 {
     "compilerOptions": {
-        "outDir": "dist/js", // Which folder the JS will be save
-        "target": "ES6", // Converts to the version ES6 of JS
-        "noEmitOnError": true
+        "outDir": "dist/js",
+        "target": "ES6",
+        "noEmitOnError": true,
+        "noImplicitAny": true
     },
     "include": [
-        "app/**/*" // Where is the TS files
+        "app/**/*"
     ]
 }

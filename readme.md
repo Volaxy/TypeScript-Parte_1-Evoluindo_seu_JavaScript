@@ -27,3 +27,10 @@ URL do curso -> [TypeScript - Parte 1 - Evoluindo seu JavaScript](https://cursos
 * Integração com scripts do Node.js;
 * Modificadores de acesso `private` e `public`;
 * Benefícios iniciais da linguagem TypeScript;
+
+## 03 - Benefícios da Tipagem Estática &#x1F516;
+* O tipo implícito `any`.
+* Benefícios da tipagem estática.
+* Mais configurações do compilador tsc.
+* Retorno de método explícito.
+* Conversão de valores da interface do usuário.
