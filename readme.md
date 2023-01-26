@@ -42,3 +42,10 @@ URL do curso -> [TypeScript - Parte 1 - Evoluindo seu JavaScript](https://cursos
 * Questões de mutabilidade e como solucioná-la.
 * O tipo `ReadonlyArray`.
 * Adição de negociações em nossa lista.
+
+## 05 - Simplificando nosso Código &#x1F516;
+* Nova maneira de declaração de array com generics.
+* O tipo `ReadonlyArray`.
+* O modificador `readonly`.
+* Getters vs propriedades públicas em modo de leitura.
+* Programação defensiva.

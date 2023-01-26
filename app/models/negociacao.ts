@@ -1,17 +1,15 @@
 export class Negociacao {
-    private _data: Date;
-    private _quantidade: number;
-    private _valor: number;
-
-    // If the type is not declared in the class, the default type of the parameter or property is "any"
-    constructor(data: Date, quantidade: number, valor: number) {
-        this._data = data;
-        this._quantidade = quantidade;
-        this._valor = valor;
-    }
+    // When the property name is the same of the parameters name, only add the access property before the name, after the TS set the property with the same name of the parameter in the class
+    constructor(
+        private _data: Date,
+        private _quantidade: number,
+        private _valor: number
+    ) {}
 
     get data(): Date {
-        return this._data;
+        const data = new Date(this._data.getTime());
+
+        return data;
     }
 
     get quantidade(): number {

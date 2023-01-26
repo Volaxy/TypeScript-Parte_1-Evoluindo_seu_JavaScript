@@ -1,13 +1,15 @@
 import { Negociacao } from "./negociacao.js";
 
 export class Negociacoes {
-    private negociacoes: Array<Negociacao> = [];
+    // CLASS[] indicates to the TS what the variable is an Array
+    private negociacoes: Negociacao[] = [];
 
     add(negociacao: Negociacao) {
         this.negociacoes.push(negociacao);
     }
 
-    list(): ReadonlyArray<Negociacao> {
+    // This is the same of "ReadonlyArray<Negociacao>"
+    list(): readonly Negociacao[] {
         return this.negociacoes;
     }
 }
