@@ -34,3 +34,11 @@ URL do curso -> [TypeScript - Parte 1 - Evoluindo seu JavaScript](https://cursos
 * Mais configurações do compilador tsc.
 * Retorno de método explícito.
 * Conversão de valores da interface do usuário.
+
+## 04 - Avançando na Modelagem de Domínio &#x1F516;
+* Modelagem da classe `Negociacoes`.
+* Utilização de **Generics**.
+* Revisão sobre encapsulamento.
+* Questões de mutabilidade e como solucioná-la.
+* O tipo `ReadonlyArray`.
+* Adição de negociações em nossa lista.
